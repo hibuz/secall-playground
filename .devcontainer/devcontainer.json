@@ -10,5 +10,5 @@
     },
     "ghcr.io/stu-bell/devcontainer-features/claude-code:0": {}
   },
-  "postCreateCommand": "npm i -g @openai/codex && curl -fsSL https://ollama.com/install.sh | sh && sudo cp binary/secall.0.3.3 /usr/local/bin/secall && sudo cp binary/libkiwi.so /usr/local/lib/"
+  "postCreateCommand": "npm i -g @openai/codex && curl -fsSL https://ollama.com/install.sh | sh && sudo cp binary/secall /usr/local/bin/secall && sudo cp binary/libkiwi.so /usr/local/lib/"
 }
